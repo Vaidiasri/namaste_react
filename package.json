@@ -1,0 +1,23 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "this  namaste react",
+  "scripts": {
+    "start": "parcel index.html",
+    "bulid":"parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "vaibhav",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}
