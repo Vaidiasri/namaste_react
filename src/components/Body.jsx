@@ -10,8 +10,8 @@ const Body = () => {
   const handleSearch = () => {
     const filtered = restaurantList.filter((r) =>
       r.name.toLowerCase().includes(searchText.toLowerCase()) ||
-      r.cuisines.some((c) => c.toLowerCase().includes(searchText.toLowerCase()))
-    );
+      r.cuisines.some((c) => c.toLowerCase().includes(searchText.toLowerCase()))||r.avgRating>4
+    );// make  an  filter  based  on name , cuisines , avgrating
     setRestaurants(filtered);
   };
 
